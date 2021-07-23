@@ -1,0 +1,17 @@
+{
+  "name": "factors",
+  "version": "1.0.0",
+  "description": "A library to find factors for a given input",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "factor",
+    "math",
+    "factors",
+    "getfactors"
+  ],
+  "author": "Noura Loudani",
+  "license": "ISC"
+}
