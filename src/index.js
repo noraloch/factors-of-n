@@ -5,6 +5,9 @@
  */
 function factors(n) {
     
+    // can't handle n <= 0, function to throw
+
+    if (n <= 0) throw 'Input n must be greater than 0';
     // 1 and the number itself
     let factors = [1, n]
     
