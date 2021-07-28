@@ -1,10 +1,10 @@
 {
-  "name": "factors",
+  "name": "factors-of-n",
   "version": "1.0.0",
   "description": "A library to find factors for a given input",
   "main": "src/index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha"
   },
   "keywords": [
     "factor",
@@ -13,5 +13,8 @@
     "getfactors"
   ],
   "author": "Noura Loudani",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.0.3"
+  }
 }

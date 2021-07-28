@@ -1,8 +1,11 @@
-## Factors
+# Factors Of n
 
-A function to get factors of a given input
+A function to get factors of a given input n.
 
-### Usage
+## constraints
+n > 0
+
+## Usage
 
 ```
 npm install --save factors
@@ -15,3 +18,4 @@ factors(16); // [ 1, 2, 4, 8, 16 ]
 factors(178990); /* [ 1, 2, 5, 7, 10, 14, 35, 70, 2557, 5114, 12785, 17899, 25570,
                       35798, 89495, 178990 ] *
 ```
+
